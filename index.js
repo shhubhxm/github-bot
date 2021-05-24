@@ -18,10 +18,10 @@ const makeCommit = n => {
         // git commit --date="monday 28th"
         SimpleGit().add((FILE_PATH)).commit(DATE, { '--date': DATE },
         makeCommit.bind(this, --n));
-    });
+    }); 
 }
 
 // makeCommit(comlumnsFrom[0]index,rowFrom[-1]index)
 // numberOfCommits 
-makeCommit(500);
+makeCommit(34);
 
