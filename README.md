@@ -6,6 +6,7 @@ The more commits we make on the same date, the deeper the color becomes. You can
 ## What is github-bot?
 Github bots are basically bots that augment the software development process on Github.
 GitHub Apps can listen to webhook events sent by a repository or organization. Bot uses its internal event emitter to perform actions based on those events.
+
 A github-bot App might look like this:
 
 ``` node
