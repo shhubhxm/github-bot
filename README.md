@@ -3,8 +3,10 @@
 Github then generates a Contribution Graph accordingly. You can even make creative art on your Github profile. Do check out my GitHub profile for one such.
 
 The more commits we make on the same date, the deeper the color becomes. You can even add different shades to the Github commit contribution graph.  -->
+## What is github-bot?
+Github bots are basically bots that augment the software development process on Github.
 GitHub Apps can listen to webhook events sent by a repository or organization. Bot uses its internal event emitter to perform actions based on those events.
-A Github-bot App might look like this:
+A github-bot App might look like this:
 
 ``` node
 module.exports = (app) => {
