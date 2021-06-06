@@ -6,7 +6,7 @@ The more commits we make on the same date, the deeper the color becomes. You can
 GitHub Apps can listen to webhook events sent by a repository or organization. Bot uses its internal event emitter to perform actions based on those events.
 A Github-bot App might look like this:
 
-```
+``` node
 module.exports = (app) => {
   app.on("issues.opened", async (context) => {
     const issueComment = context.issue({
